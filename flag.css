@@ -1,0 +1,47 @@
+.white{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+}
+
+.blue{
+    width: 220px;
+    height: 130px;
+    background-color: blue;
+    position: relative;
+}
+
+.blue1{
+    width: 220px;
+    height: 130px;
+    background-color: blue;
+    position: absolute;
+    left: 288px;
+    top: 178px;
+}
+
+.red{
+    width: 220px;
+    height: 130px;
+    background-color: red;
+    position: relative;
+    right: -280px;
+    top: -130px;
+}
+
+.red1{
+    width: 220px;
+    height: 130px;
+    background-color: red;
+    position: relative;
+    top: -90px;
+}
+
+img{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: -262px;
+    left: 222px;
+}
