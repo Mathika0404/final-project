@@ -89,3 +89,44 @@ body {
     .project-link{
         text-decoration: none;
     }
+
+  @media (max-width: 1440px) {
+  h3 {
+    font-size: 32px;
+    margin: 40px auto; /* center horizontally */
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    
+  }
+
+  .grid-container {
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px;
+    margin-top: 120px;
+    padding: 0 60px;
+    justify-content: center;
+  }
+
+  .project-box {
+    width: 100%;
+    height: 140px;
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    margin-left: -200px;
+    margin-top: -10px;
+    gap: 10px;
+  }
+
+    nav ul li a {
+    font-size: 16px;
+  }
+}
+

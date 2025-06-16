@@ -100,3 +100,180 @@ p{
   padding: 10px;
 }
 
+@media (max-width: 1025px) {
+  .content-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  .text-content {
+    max-width: 90%;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-section {
+    margin: 30px auto;
+    padding: 30px 20px;
+    max-width: 70%;
+  }
+
+  .about-container h2 {
+    font-size: 26px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .bio {
+    font-size: 17px;
+  }
+
+  .skills-list {
+    justify-content: center;
+  }
+
+  .skills-list li {
+    font-size: 15px;
+    padding: 7px 14px;
+  }
+}
+
+@media (max-width: 426px) {
+
+    header {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    /* align-items: end; */
+    margin-left: -50px;
+    margin-top: -10px;
+
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+  }
+
+  .contact-section {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 30px;
+    gap: 10px;
+  }
+
+  .contact-section span {
+    margin: 0;
+    font-size: 13px;
+    align-self: flex-start;
+    margin-left: 85px;
+  }
+
+  .contact-section input,
+  .contact-section textarea {
+    width: 60%;
+    font-size: 10px;
+  }
+
+  button {
+    width: 20%;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 1px;
+  }
+}
+
+@media (max-width: 376px) {
+
+    header {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    /* align-items: end; */
+    margin-left: -200px;
+    margin-top: -10px;
+
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+    h3 {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 100px;
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 376px) {
+    h3 {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 100px;
+    text-align: center;
+
+}
+}
