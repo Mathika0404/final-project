@@ -9,7 +9,6 @@ body {
   background-color: peachpuff;
 }
 
-
 header {
   background-color: white;
   color: black;
@@ -24,7 +23,7 @@ header {
 }
 
 .logo {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   color: black;
 }
@@ -41,122 +40,90 @@ nav ul li a {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
+  font-size: 22px;
 }
 
 nav ul li a:hover {
   color: grey;
 }
 
-
-main {
-  padding: 30px;
-}
-
 .content-wrapper {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
+  padding: 60px 40px;
 }
 
-img {
-  width: 300px;
-  height: auto;
+.my-image {
+  width: 350px;
+  height: 400px;
+  margin-top: 60px;
 }
 
 .text-content {
-  max-width: 400px;
+  max-width: 600px;
+  font-size: 25px;
+  text-align: justify;
+  padding: 20px;
 }
 
 .text-content p {
-  text-align: justify;
-  font-size: 16px;
-  margin-bottom: 20px;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.button {
+  width: 220px;
+  height: 60px;
+  background-color: #abadaf;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.button:hover {
+  background-color: #616263;
+  color: white;
 }
 
 .download-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #616263;
-  color: white;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-  margin-top: 100px;
-  margin-left: 600px;
+  color: black;
 }
 
-.download-btn:hover {
-  background-color: grey;
-}
-
-
-@media (max-width: 1025px) {
+/* Responsive Design */
+@media (max-width: 768px) {
   .content-wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  img {
-    width: 250px;
+    flex-direction: column;
+    padding: 40px 20px;
   }
 
   .text-content {
-    max-width: 90%;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
   }
 
-  nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  nav ul {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .logo {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .content-wrapper {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  img {
+  .my-image {
     width: 200px;
+    height: 240px;
   }
 
-  .text-content p {
-    font-size: 14px;
+  .button {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
   }
 
-  .download-btn {
-    font-size: 14px;
-    padding: 8px 16px;
-  
+  nav ul li a {
+    font-size: 18px;
   }
 }
-
-@media (max-width:1025px){
-  .download-btn{
-    margin-left: 400px;
-  }
-} 
-
